@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npx --version)",
+      "Bash(npm ping *)",
+      "Bash(npx --yes create-next-app@latest . --typescript --eslint --app --no-tailwind --no-src-dir --import-alias \"@/*\" --use-npm --disable-git --yes)",
+      "Bash(mv /tmp/velora_stash/.claude .)",
+      "Bash(mkdir -p design)",
+      "Bash(mv /tmp/velora_stash/design_reference.html design/)",
+      "Bash(rmdir /tmp/velora_stash)",
+      "Read(//private/tmp/velora_stash/**)",
+      "Read(//private/tmp/velora_stash/.claude/**)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
