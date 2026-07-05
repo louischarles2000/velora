@@ -21,7 +21,7 @@ export const WHATSAPP_LINK = "https://wa.me/256780489607";
 // Contact details — kept here so the Contact page and the SEO schema match.
 export const CONTACT_PHONE = "+256709671172"; // E.164 format for schema/tel:
 export const CONTACT_PHONE_DISPLAY = "+256 709 671 172";
-export const CONTACT_EMAIL = "angelanamyalo062@gmail.com";
+export const CONTACT_EMAIL = "info@velorakitchenandcleaning.com";
 
 export type NavItem = { label: string; href: string };
 
